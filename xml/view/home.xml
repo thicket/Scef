@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+    <controller>
+        <name>home</name>
+        <action>
+            <name>index</name>
+            <view>
+                <name>default</name>
+                <html>
+                    <page>header</page>
+                    <page>index</page>
+                    <page>footer</page>
+                </html>
+                <name>ajax</name>
+                <html>
+                    <page>header</page>
+                    <page>sidebar</page>
+                    <page>action</page>
+                    <page>table</page>
+                    <page>page</page>
+                    <page>footer</page>
+                </html>
+            </view>
+        </action>
+    </controller>
+</item>

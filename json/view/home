@@ -1,0 +1,12 @@
+{
+    "home":{
+        "default":{
+            "page":["header","index","footer"]
+        }
+    },
+    "list":{
+        "default":{
+            "page":["header","body","footer"]
+        }
+    }
+}

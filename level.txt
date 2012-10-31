@@ -1,0 +1,57 @@
+handle type
+
+status group{
+
+	-600 - test error
+	-500 - debug error
+	-181 - data intact error
+	-180 - data
+	-160 - return
+	-140 - result
+	-120 - logic
+	-100 - error
+	-7 - warning
+	-6 - other error
+	-5 - null error
+	-4 - pointer error
+	-3 - variable error
+	-2 - syntax error
+	-1 - setting error
+	0 - system error
+	1 - complete
+	2 - info
+	3 - tips
+	4 - echo
+}
+
+from group{
+
+	10 - index
+	20 - controller
+	30 - model
+	40 - view
+	50 - library
+	60 - other
+}
+
+action group{
+	
+	100 - return undefined
+	101 - return string
+	102 - return number
+	103 - return array
+	104 - return object
+	105 - return bool
+	106 - return null
+	107 - retrun html
+	108 - return json
+	109 - return xml
+
+	200 - url
+	201 - message
+	202 - jump
+	203 - back
+	204 - required
+	
+	999 - die
+}

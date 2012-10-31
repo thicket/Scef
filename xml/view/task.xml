@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+    <controller>
+        <name>task</name>
+        <action>
+            <name>index</name>
+            <view>
+                <name>default</name>
+                <html>
+                    <page>header</page>
+                    <page>sidebar</page>
+                    <page>action</page>
+                    <page>task/index</page>
+                    <page>page</page>
+                    <page>footer</page>
+                </html>
+            </view>
+            <view>
+                <name>ajax</name>
+                <html>
+                    <page>task/index</page>
+                </html>
+            </view>
+        </action>
+        <action>
+            <name>fill</name>
+            <view>
+                <name>default</name>
+                <html>
+                    <page>task/fill</page>
+                </html>
+            </view>
+        </action>
+        <action>
+            <name>edit</name>
+            <view>
+                <name>default</name>
+                <html>
+                    <page>task/fill</page>
+                </html>
+            </view>
+        </action>
+    </controller>
+</item>
